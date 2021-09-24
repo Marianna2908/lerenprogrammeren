@@ -29,17 +29,14 @@
 
 //3. Schrijf een programma waar je het eindGetal vraag aan de gebruiker en als volgt afdruk op het scherm.
 //
-// var getal = "";
-// var teller = 1;
-// var eindgetal = "";
-// var begingetal = " ";
-// var som = "";
+// var eindGetal = "";
+
+// var totaal= 2;
 //
 //
 // begingetal= parseInt(prompt("geef het getal in"));
-// for(i=0;i<=teller;i++){
-//     begingetal = begingetal +=teller;
-//     teller++
+// for(i=1;i<=eindgetal;i++){
+//     if
 //
 // console.log(teller + "+"+ getal +"=" +som)
 // }
@@ -50,33 +47,20 @@
 // Uiteindelijk dienen het aantal karakters en het aantak woorden van die zin te worden geteld.
 //let op spatie telt niet mee als karakter
 
-// nodig: count? 00
-// om spatie te elimineren moet je --" " gebruiken
-var aantalKarakters = 0;
-var aantalWoorden= 0;
-var letter=1
-var i= 0
-var zin= "Geef een zin in";
-
-prompt("Geef een zin in");
-for( i=0; i< length; i++){
-
-        if (str.charAt(i) == letter)
-        {
-            aantalKarakters += 1;
-        }
-        aantalKarakters+=1
-    }
-
-
-
-console.log(" aantal karakters is : "+ aantalKarakters+;
-console.log(" aantal woorden is : "+ aantalWoorden);
-//     if(str.charAt(i) ==aantalKarakters);
-//         {
-//             aantalKarakters+=1;
-//         }
-
-
-
-
+// // nodig: count? 00
+// // om spatie te elimineren moet je --" " gebruiken
+// var zin = prompt("Geef een zin in:");
+// var aantalWoorden = 0;
+// var aantalKarakters= 0;
+// for(i=1;i<=zin.length;i++){
+//     if(zin.substring(i,i+1)==" "){
+//
+//         aantalWoorden++;
+//     }
+// }
+// aantalKarakters = parseInt(zin.length)- aantalWoorden;
+// aantalWoorden = aantalWoorden+1;
+// console.log("Aantal karakters: " + aantalKarakters);
+// console.log("Aantal woorden: " + aantalWoorden);
+//
+//
