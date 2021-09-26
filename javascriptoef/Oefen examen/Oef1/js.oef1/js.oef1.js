@@ -154,4 +154,85 @@
 // }
 //
 //
+// var i = 0;
+// var resultaat = " ";
+//
+// for(var i=0;i<=99;i++){
+//     if(i<=10){
+//         resultaat += "0" + i+",";
+//     }else{
+//         resultaat += 0 + i +",";
+//     }
+// }
+// resultaat= resultaat.substr(0,resultaat.length-1);
+// console.log(resultaat);
 
+// var getal= parseInt(prompt("Geet een getal in die groter is dan 0"));
+//
+//
+// for(i= 1;i<=getal;i++){
+//     var hulpgetal = i%2;
+//     if(hulpgetal==0) {
+//         console.log(i);}
+//     }
+// /
+
+// var karakter = parseInt(prompt('geef een karakter in'));
+// var tekenreeks = parseInt(prompt("geef een zin in"));
+//
+// var aantalKarakters = 0;
+// for (var plaats = 0; plaats < tekenReeks.length; plaats++)
+// {
+//     if (tekenReeks.charAt(plaats) == karakter)
+//     {
+//         aantalKarakters += 1;
+//     }
+// }
+// console.log(aantalKarakters);
+
+// var getal= parseInt(prompt("geef getal in"));
+// var resultaat= "";
+// var i = 1;
+//
+// for(var i; i<getal;i*=2){
+//     resultaat = resultaat + i + ","; //resultaat+ i + de opvulbakje waar het moet worden weergegeven
+// } // waarde *x vermenigvuldigen
+//
+// console.log(resultaat.substr(0,resultaat.length-1));
+
+// var string= "Fullstack developers";
+// console.log( string.replace("a","u"));
+// console.log( string.replace("e","i"));
+
+// var zin= prompt("geef een zin in");
+// var welkeLetters= prompt(" Welke letters wil je vervangen");
+// var vervangLetters= prompt("In welke letters wil je de voorgaande veranderenK.");
+// var resultaat= "";
+// var letterReeks = welkeLetters.split("a","e");
+// var vervangReeks= vervangLetters.split("u", "i");
+//
+// for(i= 0 ;i<zin;i++){
+//     var mijnKarakter= zin.substr(i,i+1);
+//     if(letterReeks.indexOf(mijnKarakter>=0)){
+//         resultaat+= vervangReeks[letterReeks.indexOf(mijnKarakter)];
+//     }
+//     else
+//         resultaat+= mijnKarakter;
+// }
+// console.log("resultaat"+resultaat);
+//
+// var eindGetal = parseInt(prompt("Geef een eindGetal in:"));
+// var totaal = 2;
+// var resultaat=""
+// for(i=1;i<=eindGetal;i++){
+//     if(i%2!==0){
+//         totaal = totaal - i;
+//         resultaat = resultaat + i + "+";
+//     }else{
+//         totaal = totaal + i;
+//         resultaat = resultaat + i + "-";
+//     }
+// }
+// console.log(resultaat.substring(0,resultaat.length-1) + " = " + totaal);
+var zin = prompt("Geef een string in");
+console.log(zin.split("").reverse().join(""));
